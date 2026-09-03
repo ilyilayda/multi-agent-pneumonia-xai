@@ -1,0 +1,2 @@
+cnn_auc,resnet_auc,auc_difference_resnet_minus_cnn,ci_lower_95,ci_upper_95,bootstrap_p_value,valid_bootstrap_samples
+0.9171159325005479,0.943874643874644,0.026758711374096134,0.005260259769967263,0.04841701018762221,0.015,2000

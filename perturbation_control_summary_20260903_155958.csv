@@ -1,0 +1,2 @@
+n_images,mean_cam_region_drop,median_cam_region_drop,negative_cam_drop_rate,mean_random_region_drop,median_random_region_drop,negative_random_drop_rate,mean_cam_minus_random_drop
+200,0.18132295766845347,0.07861599326133728,0.17,0.18934292821446433,0.0024378597736358643,0.43,-0.008019970546010882

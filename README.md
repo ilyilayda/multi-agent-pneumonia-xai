@@ -38,7 +38,12 @@ The project uses:
 
 ## Multi-Agent Architecture
 
-The implemented workflow includes multiple specialized agents responsible for prediction, explanation, validation, and report generation.
+The implemented workflow includes multiple specialized agents:
+
+- **Prediction Agent** — CNN/ResNet-18 based pneumonia classification
+- **Explanation Agent** — Generates Grad-CAM and SHAP explanations for model decisions
+- **Critic Agent** — Validates explanation quality through perturbation sensitivity analysis
+- **Report Agent** — Synthesizes predictions and explanations into structured clinical summaries via LLM
 
 ## Technologies
 
